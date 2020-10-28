@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary1.GameOjrcts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,6 +18,11 @@ namespace ClassLibrary1
         private void Method2()
         {
             Console.WriteLine("Test!");
+        }
+
+        private void ShowHero(Hero h)
+        {
+            Console.WriteLine($"{h.Health} {h.Strength}");
         }
     }
     
