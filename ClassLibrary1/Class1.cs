@@ -8,9 +8,15 @@ namespace ClassLibrary1
 {
     public class Class1
     {
+        public int MyProperty { get; set; }
         private void ShowUI()
         {
             Console.WriteLine("Main Window!");
+        }
+
+        private void Method2()
+        {
+            Console.WriteLine("Test!");
         }
     }
 }
