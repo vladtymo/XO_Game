@@ -19,4 +19,12 @@ namespace ClassLibrary1
             Console.WriteLine("Test!");
         }
     }
+    
+    public class Window
+    {
+        public void Show()
+        {
+            // showing...
+        }
+    }
 }
